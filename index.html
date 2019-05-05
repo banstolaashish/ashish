@@ -1,450 +1,474 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Chimper &mdash; Colorlib Website Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body>
-  
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-   
-    <div class="border-bottom top-bar py-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <p class="mb-0">
-              <span class="mr-3"><strong>Phone:</strong> <a href="tel://#">+1 292 3293 4238</a></span>
-              <span><strong>Email:</strong> <a href="#">info@yourdomain.com</a></span>
-            </p>
-          </div>
-          <div class="col-md-6">
-            <ul class="social-media">
-              <li><a href="#" class="p-2"><span class="icon-facebook"></span></a></li>
-              <li><a href="#" class="p-2"><span class="icon-twitter"></span></a></li>
-              <li><a href="#" class="p-2"><span class="icon-instagram"></span></a></li>
-              <li><a href="#" class="p-2"><span class="icon-linkedin"></span></a></li>
-            </ul>
-          </div>
-        </div>
-      </div> 
-    </div>
-    <header class="site-navbar py-4 bg-white" role="banner">
-
-      <div class="container">
-        <div class="row align-items-center">
-          
-          <div class="col-11 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Chimper</a></h1>
-          </div>
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-
-              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li class="has-children">
-                  <a href="services.html">Services</a>
-                  <ul class="dropdown">
-                    <li><a href="services.html">Web Applications</a></li>
-                    <li><a href="services.html">WordPress Dev</a></li>
-                    <li><a href="services.html">Mobile Applications</a></li>
-                    <li><a href="services.html">eCommerce</a></li>
-                  </ul>
-                </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-
-
-          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-          </div>
-
-        </div>
-      </div>
-      
-    </header>
-
-  
-
-    <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-      <div class="container">
-        <div class="row align-items-center justify-content-center text-center">
-
-          <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
-                        
-            <div class="row justify-content-center mb-4">
-              <div class="col-md-8 text-center">
-                <h1>We Are Expert in <span class="typed-words"></span></h1>
-                <p class="lead mb-5">We Make Beautiful Things</p>
-                <div><a href="#" class="btn btn-primary btn-md">Hire Us</a></div>
-              </div>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>Ronin Multi</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu" id="mainNav">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
+								<li class="nav-item"><a class="nav-link" href="services.html">Services</a>
+								<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+										<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Project Details</a></li>
+										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+									</ul>
+								</li> 
+								<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+									</ul>
+								</li> 
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							</ul>
+						</div> 
+					</div>
+            	</nav>
             </div>
-
-          </div>
-        </div>
-      </div>
-    </div>  
-
-
-    <section class="section ft-feature-1">
-      <div class="container">
-        <div class="row align-items-stretch">
-          <div class="col-12 bg-black w-100 ft-feature-1-content">
-            <div class="row align-items-center">
-              <div class="col-lg-5">
-                <div class="h-100">
-                  <div class="mb-5 d-flex align-items-center">
-                    <div>
-                      <a href="https://vimeo.com/317571768" class="popup-vimeo d-block play"><span class="icon-play"></span></a>
-                    </div>
-                    <h2>Welcome To Chimper An Awward Winning Web Agency</h2>
-                  </div>
-                  <img src="images/about_1.jpg" alt="Image" class="img-feature img-fluid">
-                </div>
-              </div>
-              <div class="col-lg-3 ml-auto">
-                <div class="mb-5">
-                  <h3 class="d-flex align-items-center"><span class="icon icon-phonelink mr-2"></span><span>Web Design</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
-                </div>
-
-                <div>
-                  <h3 class="d-flex align-items-center"><span class="icon icon-extension mr-2"></span><span>Branding &amp; Identity</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
-                </div>
-
-              </div>
-              <div class="col-lg-3">
-                <div class="mb-5">
-                  <h3 class="d-flex align-items-center"><span class="icon icon-format_paint mr-2"></span><span>Art Direction</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
-                </div>
-
-                <div>
-                  <h3 class="d-flex align-items-center"><span class="icon icon-question_answer mr-2"></span><span>Copywriting</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                  <p><a href="#">Read More</a></p>
-                </div>
-              </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+            <div class="banner_inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="home_left_img">
+								<img src="img/banner/home-left-1.png" alt="">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="banner_content">
+								<h5>This is me</h5>
+								<h2>Travor James</h2>
+								<p>You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures)</p>
+								<a class="banner_btn" href="#">Discover Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">01.</div>
-              <h2>Our Values</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">02.</div>
-              <h2>Our Mission</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="p-3 box-with-humber">
-              <div class="number-behind">03.</div>
-              <h2>Our Philosophy</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="site-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="text-black h1 site-section-heading text-center">Featured Projects</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a href="#" class="media-1">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Project Name 1</h2>
-                <span class="category">Web Application</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="#" class="media-1">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Project Name 2</h2>
-                <span class="category">Branding</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="#" class="media-1">
-              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
-              <div class="media-1-content">
-                <h2>Project Name 3</h2>
-                <span class="category">Website</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-12 text-center mt-5">
-            <a href="work.html" class="btn btn-primary btn-md">Show All Works</a>
-          </div>
-
-          
-        </div>
-      </div>
-    </section>
-
-
-    <section class="site-section testimonial-wrap">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="text-black h1 site-section-heading text-center">Testimonials</h2>
-          </div>
-        </div>
-      </div>
-      <div class="slide-one-item home-slider owl-carousel">
-          <div>
-            <div class="testimonial">
-              
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
-              </figure>
-            </div>
-          </div>
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Christine Aguilar</p>
-              </figure>
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Robert Spears</p>
-              </figure>
-
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-
-              <blockquote class="mb-5">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <figure class="mb-4 d-flex align-items-center justify-content-center">
-                <div><img src="images/person_5.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Bruce Rogers</p>
-              </figure>
-
-            </div>
-          </div>
-
-        </div>
-    </section>
-
-    <section class="site-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="text-black h1 site-section-heading text-center">Blog</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
-              <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
-            </div> 
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-            <div class="h-entry">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              <h2 class="font-size-regular"><a href="#">Create Beautiful Website In Less Than An Hour</a></h2>
-              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#">Continue Reading...</a></p>
-            </div> 
-          </div>
-          
-        </div>
-      </div>
-    </section>
-
-    <a href="#" class="bg-primary py-5 d-block">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md10"><h2 class="text-white">Hire Us &amp; Let's Get Started</h2></div>
-        </div>
-      </div>  
-    </a>
-    
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-5">
-                <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
-              </div>
-              <div class="col-md-3 ml-auto">
-                <h2 class="footer-heading mb-4">Features</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="col-md-3">
-                <h2 class="footer-heading mb-4">Follow Us</h2>
-                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-            <form action="#" method="post">
-              <div class="input-group mb-3">
-                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                  <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
-
-  <script src="js/typed.js"></script>
-            <script>
-            var typed = new Typed('.typed-words', {
-            strings: ["Web Apps"," WordPress"," Mobile Apps"],
-            typeSpeed: 80,
-            backSpeed: 80,
-            backDelay: 4000,
-            startDelay: 1000,
-            loop: true,
-            showCursor: true
-            });
-            </script>
-
-  <script src="js/main.js"></script>
-    
-  </body>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Welcome Area =================-->
+        <section class="welcome_area p_120">
+        	<div class="container">
+        		<div class="row welcome_inner">
+        			<div class="col-lg-6">
+        				<div class="welcome_text">
+        					<h4>About Myself</h4>
+        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+        					<div class="row">
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-database"></i>
+        								<h4>$2.5M</h4>
+        								<p>Total Donation</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-book"></i>
+        								<h4>1465</h4>
+        								<p>Total Projects</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-users"></i>
+        								<h4>3965</h4>
+        								<p>Total Volunteers</p>
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="tools_expert">
+        					<h3>Tools Expertness</h3>
+        					<div class="skill_main">
+								<div class="skill_item">
+									<h4>After Effects <span class="counter">85</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Photoshop <span class="counter">90</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Illustrator <span class="counter">70</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Sublime <span class="counter">95</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Sketch <span class="counter">75</span>%</h4>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Welcome Area =================-->
+        
+        <!--================Feature Area =================-->
+        <section class="feature_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>offerings to my clients</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="feature_inner row">
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>Architecture</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-skyline"></i>
+        					<h4>Interior Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-sketch"></i>
+        					<h4>Concept Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>Architecture</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-skyline"></i>
+        					<h4>Interior Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-sketch"></i>
+        					<h4>Concept Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
+        
+        <!--================Projects Area =================-->
+        <section class="projects_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+					<h2>Our Recent Completed Projects</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+				</div>
+        		<div class="projects_fillter">
+					<ul class="filter list">
+						<li class="active" data-filter="*"><a href="#">All Categories</a></li>
+						<li data-filter=".brand"><a href="#">Branding</a></li>
+						<li data-filter=".work"><a href="#">Creative Work </a></li>
+						<li data-filter=".web"><a href="#">Web Design</a></li>
+					</ul>
+				</div>
+				<div class="projects_inner row">
+					<div class="col-lg-4 col-sm-6 brand web">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-1.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand work">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-2.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 work">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-3.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand web">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-4.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand work">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-5.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 brand work web">
+						<div class="projects_item">
+							<img class="img-fluid" src="img/projects/projects-6.jpg" alt="">
+							<div class="projects_text">
+								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+				</div>
+        	</div>
+        </section>
+        <!--================End Projects Area =================-->
+        
+        <!--================Testimonials Area =================-->
+        <section class="testimonials_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Testimonials</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="testi_inner">
+					<div class="testi_slider owl-carousel">
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
+							</div>
+						</div>
+					</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Testimonials Area =================-->
+        
+        <!--================Latest Blog Area =================-->
+        <section class="latest_blog_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Latest Posts from Blog</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="row latest_blog_inner">
+        			<div class="col-lg-4">
+        				<div class="l_blog_item">
+        					<div class="l_blog_img">
+        						<img class="img-fluid" src="img/blog/home-blog/home-blog-1.jpg" alt="">
+        					</div>
+        					<div class="l_blog_text">
+        						<div class="date">
+        							<a href="#">25 October, 2017  |  By Mark Wiens</a>
+        						</div>
+        						<a href="#"><h4>Addiction When Gambling Becomes A Problem</h4></a>
+        						<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery people scan bar codes with handhelds and workers in the field stay</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="l_blog_item">
+        					<div class="l_blog_img">
+        						<img class="img-fluid" src="img/blog/home-blog/home-blog-2.jpg" alt="">
+        					</div>
+        					<div class="l_blog_text">
+        						<div class="date">
+        							<a href="#">25 October, 2017  |  By Mark Wiens</a>
+        						</div>
+        						<a href="#"><h4>Make Myspace Your Best Designed Space</h4></a>
+        						<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery people scan bar codes with handhelds and workers in the field stay</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4">
+        				<div class="l_blog_item">
+        					<div class="l_blog_img">
+        						<img class="img-fluid" src="img/blog/home-blog/home-blog-3.jpg" alt="">
+        					</div>
+        					<div class="l_blog_text">
+        						<div class="date">
+        							<a href="#">25 October, 2017  |  By Mark Wiens</a>
+        						</div>
+        						<a href="#"><h4>Video Games Playing With Imagination</h4></a>
+        						<p>Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery people scan bar codes with handhelds and workers in the field stay</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Latest Blog Area =================-->
+        
+        <!--================Footer Area =================-->
+        <footer class="footer_area p_120">
+        	<div class="container">
+        		<div class="row footer_inner">
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget ab_widget">
+        					<div class="f_title">
+        						<h3>About Me</h3>
+        					</div>
+        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+        					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+        				</aside>
+        			</div>
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget news_widget">
+        					<div class="f_title">
+        						<h3>Newsletter</h3>
+        					</div>
+        					<p>Stay updated with our latest trends</p>
+        					<div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                	<div class="input-group d-flex flex-row">
+                                        <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>		
+                                    </div>				
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+        				</aside>
+        			</div>
+        			<div class="col-lg-2">
+        				<aside class="f_widget social_widget">
+        					<div class="f_title">
+        						<h3>Follow Me</h3>
+        					</div>
+        					<p>Let us be social</p>
+        					<ul class="list">
+        						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+        					</ul>
+        				</aside>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
+        <!--================End Footer Area =================-->
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
 </html>
